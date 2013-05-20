@@ -1,0 +1,52 @@
+/*!
+ * dlogic v0.1
+ *
+ * Copyright 2013 Datumlogic
+ *
+ *
+ * Although this demo is aimed at modern browsers, the following should work as a fall back 
+ * for full screen background image in Internet Explorer.
+ * img.bg {
+ *     min-height: 100%;
+ *     min-width: 1024px;
+ *     width: 100%;
+ *     height: auto;
+ *     position: fixed;
+ *     top: 0;
+ *     left: 0;
+ *     z-index:1;
+ *  }
+ */
+
+
+/*
+ * Add 100 per cent height to your HTML element- used in conjunction with 'background-size: contain'
+ * Ensures that the photo goes all the way to the bottom of the page.
+ */
+html {
+  height: 100%;
+  min-height: 500px;
+  min-width: 1050px;
+}
+
+/*
+ * The trick here is 'background-size: contain' combined with the html tage trick above
+ * found at: 
+ * .
+ */
+body.rightalignbg { 
+background-image: url('../img/bkgrnd.png'); 
+background-repeat: no-repeat; 
+background-position: right; 
+background-size: contain;
+background-color: black;
+}
+
+/*
+ * color the heading white for demo purposes
+ * .
+ */
+h1{
+color: white;
+padding: 20px 20px 20px 80px; 
+}

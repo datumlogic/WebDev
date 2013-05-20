@@ -1,0 +1,10 @@
+body#main {
+	background-size:cover;
+	background-color:black;
+	background: url(../img/fs_hood.png) no-repeat center center fixed;
+	margin:0px;
+	padding:0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
