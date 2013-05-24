@@ -2,20 +2,32 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Bootstrap Demo</title>
+	<!-- Date: 2013-05-24 -->
 	<meta name="author" content="Gene Myers">
-	<!-- Date: 2013-05-07 -->
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-	<link rel="stylesheet" href="css/dlogic.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Demo</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 </head>
-<body class='rightalignbg'>
-	<div class="container-fluid">
-
-			<h1>Hello Bootstrap!</h1>
-	
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-th-list"></span>
+				</a>
+				<a href="#" class="brand">Bootstrap Demo</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav pull-right">
+							<li class='active'><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
 	</div>
-	
-	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>index_rs.html</string>
+	<string>../commit.sh</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -32,17 +32,79 @@
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>index_rs.html</string>
+			<string>../webdev.cmd</string>
 			<key>lastUsed</key>
-			<date>2013-05-21T07:45:40Z</date>
+			<date>2013-05-23T14:03:00Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>../commit.sh</string>
+			<key>lastUsed</key>
+			<date>2013-05-23T14:03:00Z</date>
 			<key>selected</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>underconstruction.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-23T14:02:56Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_rs.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-23T14:02:57Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>413</integer>
 	<key>metaData</key>
 	<dict>
+		<key>../commit.sh</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+		</dict>
+		<key>../webdev.cmd</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>css/dlogic.css</key>
 		<dict>
 			<key>caret</key>
@@ -62,9 +124,39 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>36</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>2</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>5</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<key>underconstruction.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -76,6 +168,9 @@
 	<array>
 		<string>css/dlogic.css</string>
 		<string>index_rs.html</string>
+		<string>underconstruction.html</string>
+		<string>../commit.sh</string>
+		<string>../webdev.cmd</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
