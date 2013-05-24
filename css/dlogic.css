@@ -24,6 +24,7 @@
  * Ensures that the photo goes all the way to the bottom of the page.
  */
 html {
+  padding-top: 40px;
   height: 100%;
 }
 
@@ -32,12 +33,23 @@ html {
  * found at: 
  * .
  */
-body.rightalignbg { 
+body.dl_rightalignbg { 
 background-image: url('../img/bkgrnd.png'); 
 background-repeat: no-repeat; 
 background-position: right; 
 background-size: contain;
 background-color: black;
+}
+
+body#dl_cover {
+	background-size:cover;
+	background-color:black;
+	background: url(../img/fs_hood.png) no-repeat center center fixed;
+	margin:0px;
+	padding:0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 /*
