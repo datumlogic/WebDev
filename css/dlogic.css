@@ -1,8 +1,9 @@
-/*!
- * dlogic v0.1
+/*! =================================================
+ * dlogic.css v0.1
  *
- * Copyright 2013 Datumlogic
- *
+ * Copyright 2013 datumLogic
+ * * All Rights Reserved
+ * ==================================================
  *
  * Although this demo is aimed at modern browsers, the following should work as a fall back 
  * for full screen background image in Internet Explorer.
@@ -55,7 +56,7 @@ body#dl_cover {
  * color the heading white for demo purposes
  * .
  */
-h1{
+h1.dl_white{
 color: white;
 padding: 20px 20px 20px 80px; 
 }

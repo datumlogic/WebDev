@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 	<link rel="stylesheet" href="css/dlogic.css"> 
 </head>
-<body class="dl_rightalignbg">
+<body class="dl_rightalignbg" onload="setupPage();">
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -27,6 +27,12 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+	function setupPage()
+	{
+		document.title += ' [' + document.domain + ']';
+	}	
+	</script>
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>

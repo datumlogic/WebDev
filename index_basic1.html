@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Gene Myers">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bootstrap Demo</title>
+	<title>Basic1</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
 </head>
-<body>
+<body onload="setupPage();">
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -31,6 +31,12 @@
 		<p>This is where the text goes describing a call to action.</p>
 		<p><a href="#" class="btn btn-primary btn-large">Join Us!</a></p>
 	</div>
+	<script type="text/javascript">
+	function setupPage()
+	{
+		document.title += ' [' + document.domain + ']';
+	}	
+	</script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
