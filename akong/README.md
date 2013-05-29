@@ -1,3 +1,3 @@
-Purity
+Akong-A Remarkable Life
 ======
-Please note that this template is not free.
+Please note that this site is based on the Purity Bootstrap template is not free.
