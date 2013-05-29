@@ -3,104 +3,134 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>responsive_bkgrnd2/css/dlogic.css</string>
+	<string>index_buddhaipsum.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
-			<key>name</key>
-			<string>bootstrap</string>
-			<key>regexFolderFilter</key>
-			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>sourceDirectory</key>
-			<string>bootstrap</string>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>commit.sh</string>
-		</dict>
-		<dict>
 			<key>filename</key>
 			<string>README.md</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:22:13Z</date>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>responsive_bkgrnd1</string>
+			<string>css</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
-			<string>responsive_bkgrnd1</string>
+			<string>css</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
+			<key>name</key>
+			<string>img</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>img</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_basic1.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:28:30Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_basic2.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T08:58:11Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_bkgrnd1.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:27:33Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_bkgrnd2.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:22:10Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index_buddhaipsum.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T08:58:11Z</date>
+			<key>selected</key>
 			<true/>
+		</dict>
+		<dict>
 			<key>name</key>
-			<string>responsive_bkgrnd2</string>
+			<string>js</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
-			<string>responsive_bkgrnd2</string>
+			<string>js</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>underconstruction.html</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:22:02Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>favicon.ico</string>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>webdev.cmd</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:22:12Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>commit.sh</string>
+			<key>lastUsed</key>
+			<date>2013-05-25T07:22:17Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>413</integer>
 	<key>metaData</key>
 	<dict>
-		<key>bootstrap/bootstrap_basic1.html</key>
+		<key>css/dlogic.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>54</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>40</integer>
-				<key>line</key>
-				<integer>29</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>11</integer>
-			</dict>
+			<integer>19</integer>
 		</dict>
-		<key>responsive_bkgrnd2/css/dlogic.css</key>
+		<key>index_basic2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>54</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>responsive_bkgrnd2/resp_bkgrnd2.html</key>
+		<key>index_buddhaipsum.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>50</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>38</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -110,9 +140,9 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>responsive_bkgrnd2/resp_bkgrnd2.html</string>
-		<string>responsive_bkgrnd2/css/dlogic.css</string>
-		<string>bootstrap/bootstrap_basic1.html</string>
+		<string>css/dlogic.css</string>
+		<string>index_basic2.html</string>
+		<string>index_buddhaipsum.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
