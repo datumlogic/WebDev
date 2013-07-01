@@ -5,5 +5,5 @@ Contains ready-to-modify examples
 
 To use locally
 
-$ cd /Library/WebServer/Documents/WebDev
+$ cd /Library/WebServer/Documents/WebDev<br />
 $ sh commit.sh
