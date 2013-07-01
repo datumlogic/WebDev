@@ -1,5 +1,4 @@
 @import url(fancybox.css);
-@import url(fontface.css);
 
 /*
 
@@ -876,35 +875,12 @@ html[xmlns] .slides {
     text-shadow:1px 1px 1px rgba(61,61,61,0.49);
 }
 
-/* color:rgba(75,75,75,0.64); */
 .flexslider li h1 {
-    color:rgba(255,255,255,0.64);
+    color:rgba(75,75,75,0.64);
     font-size:60px;
     line-height:1;
     letter-spacing:-3px;
     font-weight:300;
-}
-
-/* title */
-.flexslider li h1#title-font {
-    color:rgba(255,255,255,0.64);
-    font-size:80px; /* 140px; */
-    font-family: 'OrchideeMedium'; /* 'Bleak Chop'; */
-}
-/* subtitle */
-.flexslider li h1#subtitle-font {
-    color:rgba(255,255,255,0.64);
-    font-size:30px;
-    line-height:1;
-    letter-spacing:-3px;
-    font-family: 'Orchidee'; 
-}
-
-/* subtext */
-.flexslider li h3 {
-    color:rgba(255,255,255,0.64);
-    font-size:26px;
-    font-weight:100;
 }
 
 /*Home Icons, Featues Icons*/
