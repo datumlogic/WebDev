@@ -1,0 +1,30 @@
+<!--
+ - underconstruction_svg_1.html
+ - This file illustrates a few principals:
+ -    * updating the Title with the hostname, to be able to differential easily between deployments
+ -    * cantering an image horizontally and vertically using the body.background property
+ -    * use of an SVG image
+ -    * embedding fonts
+ -
+ - Copyright 2013 DatumLogic
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Gene Myers">
+	<!-- Date: 2013-07-02 -->
+	<style>
+		@font-face {
+			font-family: "'Festival Nights JL'";
+			src: url('font/Festival.ttf') format('opentype');
+		}
+	</style>
+	<script>
+		document.title = document.domain;
+	</script>
+</head>
+<body style="width:100%; height:100%;background-repeat:no-repeat;background-attachment:fixed;background-position:center; 
+background-image: url('img/fezzee.svg');">
+</body>
+</html>
