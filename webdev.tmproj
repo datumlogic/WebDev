@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>img/sun.svg</string>
+	<string>commit.sh</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>README.md</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T20:22:00Z</date>
+			<date>2013-07-03T12:03:34Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>akong/webdev.cmd</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T20:22:01Z</date>
+			<date>2013-07-03T12:03:35Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>commit.sh</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T20:22:01Z</date>
+			<date>2013-07-03T12:03:35Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -33,8 +35,6 @@
 			<string>css</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>img</string>
 			<key>regexFolderFilter</key>
@@ -43,8 +43,6 @@
 			<string>img</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>font</string>
 			<key>regexFolderFilter</key>
@@ -64,7 +62,7 @@
 			<key>filename</key>
 			<string>index_metrics.html</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T20:22:00Z</date>
+			<date>2013-07-03T11:55:09Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -94,25 +92,25 @@
 			<key>filename</key>
 			<string>underconstruction_bmp_1.html</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T21:50:21Z</date>
+			<date>2013-07-03T11:53:44Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>underconstruction_svg_1.html</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T21:48:00Z</date>
+			<date>2013-07-03T11:57:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>underconstruction_svg_2.html</string>
 			<key>lastUsed</key>
-			<date>2013-07-03T05:18:27Z</date>
+			<date>2013-07-03T12:02:30Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>index_buddhaipsum.html</string>
 			<key>lastUsed</key>
-			<date>2013-07-02T09:16:16Z</date>
+			<date>2013-07-03T11:53:33Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -139,6 +137,20 @@
 	<integer>413</integer>
 	<key>metaData</key>
 	<dict>
+		<key>README.md</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>akong/README.md</key>
 		<dict>
 			<key>caret</key>
@@ -213,6 +225,20 @@
 				<integer>1</integer>
 			</dict>
 		</dict>
+		<key>commit.sh</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>css/dlogic.css</key>
 		<dict>
 			<key>caret</key>
@@ -237,7 +263,7 @@
 				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>179</integer>
+			<integer>132</integer>
 			<key>firstVisibleLine</key>
 			<integer>78</integer>
 		</dict>
@@ -255,19 +281,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>img/sun.svg</key>
+		<key>img/sun1.svg</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>111</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>67</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>21</integer>
+			<integer>23</integer>
+		</dict>
+		<key>img/sun2.svg</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>64</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>20</integer>
 		</dict>
 		<key>index_basic1.html</key>
 		<dict>
@@ -291,6 +331,34 @@
 				<integer>51</integer>
 				<key>line</key>
 				<integer>11</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>index_buddhaipsum.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>50</integer>
+				<key>line</key>
+				<integer>38</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>15</integer>
+		</dict>
+		<key>index_metrics.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>87</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -332,28 +400,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>76</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>8</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>103</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
 		</dict>
 		<key>underconstruction_svg_2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>62</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>35</integer>
+			<integer>0</integer>
 		</dict>
 		<key>webfont/festival-webfont.ttf</key>
 		<dict>
@@ -373,18 +457,24 @@
 	<key>openDocuments</key>
 	<array>
 		<string>index_basic1.html</string>
-		<string>img/sun.svg</string>
 		<string>font/festival-webfont.svg</string>
+		<string>img/sun1.svg</string>
 		<string>font/festival-webfont.ttf</string>
 		<string>webfont/festival-webfont.ttf</string>
 		<string>underconstruction_svg_1.html</string>
 		<string>underconstruction_svg_2.html</string>
+		<string>img/sun2.svg</string>
 		<string>underconstruction_bmp_1.html</string>
+		<string>index_metrics.html</string>
+		<string>README.md</string>
+		<string>akong/webdev.cmd</string>
+		<string>commit.sh</string>
+		<string>index_buddhaipsum.html</string>
 		<string>index_bkgrnd2.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{352, -46}, {1345, 874}}</string>
+	<string>{{416, 4}, {1014, 874}}</string>
 </dict>
 </plist>
