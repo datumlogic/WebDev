@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FEZZEE- Art + Technology for the Music Festival Experience</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800  rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+	
+	/* large desktop */
+	@media (min-width: 980px) {
+		body {
+			padding-top: 60px;
+		}
+		.linediv-l {
+			border-right: 1px white solid;
+		}
+		.linediv-r {
+			border-left: 1px white solid;
+		}
+	}
+	
+	/* landscape phone and down */
+	@media (max-width: 480px) {
+		.copy {
+			padding: 2.5% 10%;
+		}
+		.linediv-l {
+			border-bottom: 1px white solid;
+		}
+		.linediv-r {
+			border-top: 1px white solid;
+		}
+	}
+	
+	/* All form factors */
+	
+	/* Main body and headings */
+	body {
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+	.heading, .subheading {
+		font-family: 'Ubuntu', Helvetica, Arial, sanes-serif;
+		text-align: center;
+	}
+    p.lead {
+		padding-top: 1.5%;
+		font-size: 24px;
+		line-height: 30px;
+    }
+	p {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	/* Video pitch and Action */
+	.pitch {
+		padding: 2.5% 0%;
+	}
+	.order {
+		padding: 2% 0%;
+	}
+	.actions {
+		background-color: #343434;
+		padding: 3% 0%;
+	}
+	.video, .themometer, .order, .social, .statistics {
+		text-align: center;
+	}
+	.statistics h3, .statistics p {
+		color: white;
+	}
+
+    /* Marketing Copy and Footer */
+    .copy {
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+		text-align: justify;
+	}
+	.asset {
+		padding: 2.5% 0%;
+	}
+	.footer {
+		color: #cccccc;
+		text-align: center;
+	}
+	.footer p {
+		font-size: 11px;
+	}
+	.footer a {
+		color: #ccccff;
+	}
+    </style>
+  </head>
+  <body>
+	<!-- Mobile friendly navbar adapted from example -->
+	<!-- https://twitter.githib.io/bootstrap/examples/starter-template.html -->
+	
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="#">FEZZEE</a>    <!-- NAV TITLE -->
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+
+	<!-- we use row-fluid inside containers to achieve a resizable layout -->
+	<!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
+	<!-- http://stackoverlfow.com/a/12270322 -->
+	<div class="container">
+		<!-- font and paired font of .heading and .subheading from Google fonts -->
+		<!-- www.google.com/fonts/specimen/Ubuntu -->
+		<!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
+		<div class="row-fluid heading">
+			<div class="span12">
+			<h1>FEZZEE</h1>                   <!-- TITLE -->
+			</div>
+		</div> 
+		<div class="row-fluid subheading">
+			<div class="span12">
+			<!-- Special typography from Bootstrap for lead paragraph -->
+			<!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
+			<p class="lead">Art + Technology enriching the Music Festival Experience</p>     <!-- TAG LINE -->
+			</div>
+		</div>
+		<div class="row-fluid pitch">
+			<div class="span5 offset1 video">
+			<!-- <img class="img-polaroid" src="http://fezzee.com/img/stones_13-06-203_480x300.jpg"> -->
+			<!--
+			Disable Related Videos: rel=0
+			Player controls do not display in the player: controls=0
+			Player does not show a YouTube logo: modestbranding=1
+			Player will not display information like the video title and uploader: showinfo=0
+			
+			<iframe width="480" height="300" src="//www.youtube.com/embed/6kiKvZvawPo?rel=0&controls=0&modestbranding=1&showinfo=0&fs=1&theme=light" frameborder="0" allowfullscreen></iframe>
+			-->
+			<iframe src="http://embed.bambuser.com/channel/fezzee" width="460" height="403" frameborder="0">Your browser does not support iframes.</iframe>
+			</div>
+
+			<!-- we define a new actons div to contain statistics, order, and share buttons -->
+        	<div class="span5 actions">
+				<div class="span8 offset2">
+					<div class="statistics">
+					<div class="span4">
+						<!-- linediv-l and linedviv-r are dividing lines that look
+						different in horizontal and vertical layouts, illustrating
+						media queries -->
+						<div class="linediv-l">
+						<h3>1500</h3> <p>backers</p>
+						</div>
+					</div>
+					<div class="span4">
+						<div class="linediv-c">
+							<h3>$36,000</h3> <p>of $60,000</p>
+						</div>
+					</div>
+					<div class="span4">
+						<div class="linediv-r">
+							<h3>10</h3> <p>days left</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span10 offset1">
+				<!-- Bootstrap progress bar -->
+				<!-- https://twitter.github.io/bootstratp/components.html#progress -->
+				<div class="themometer progress active">
+					<div class="bar bar-success" style="width: 60%;"></div>
+					<div class="bar bar-warning" style="width: 40%;"></div>
+				</div>
+			</div>
+			<div class="span6 offset3 order">
+				<!-- Standard Bpptstrap button -->
+				<!--http://twitter.github.io/bootstrap/base-css.html#buttons -->
+				<button class="btn btn-success btn-large">Back This Project</button>
+			</div>
+			
+			<div class="span8 offset2 social">
+				<!-- Social buttons ar enot included in bootstratp by default -->
+				<!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+				<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+				<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+			</div>
+		</div>
+	</div>	
+
+	<!-- Marketing copy -->
+	<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+	<!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+	<!-- http://placehold.it -->
+	<div class="row-fluid section1">
+		<br><h3 style="text-align: center;">Find Your Freedom</h3>       <!-- SECTION 1 TITLE -->
+		<div class="span5 offset1 asset">
+			<img class="img-polaroid" src="http://fezzee.com/img/wristbands_480x300.png">
+			<div style="text-align: center;"><i>&quot;It's not about the bands, its about the wristbands&quot;</i> - Ziv from London</div>
+		</div>
+		<div class="span5 copy">
+			<p>
+Discover the festivals, enrich your experiences, and relive the memories.<br>
+Information, Mobile smart tech and social media; technology used by you in your daily lives is remasterd by fezzee. Freedom found!
+
+
+
+Long summer days and sultry nights, endless music and dancing all night. Partying with old friends and meeting new people. Watching your favorite bands, and seeing new ones. There's excitement in the air and it's electric, with lights dancing as the stars glisten. Drink in the mood, there are friendly people everywhere, laughing, relaxing. It’s all about the music, but more than just about the bands. Leave the stresses of life behind and spend a weekend in a field with 10’s of thousands of other hedonists like yourself. Forget your troubles and open yourself to whatever may come your way. Let the music set you free.
+			</p>
+		</div>
+	</div>
+
+	<div class="row-fluid section2">
+		<div class="span5 offset1 copy copy-right">
+			<p>
+It's been said, that no so long ago, people danced at gigs, but now they click/share/tweet. While that may be a gross exhaggeration, your smart phone is arguably just as important an accessory at a festival as your toothbrush and your welly boots. It's your camera, your communication center, your social hub, and your map, at the least. It should let you roam, untethered. It should give you the information you need, when you need it, and should let you share your expereinces. It should help you be creative and be part of the creativity of others. It should help you conserve your battery and it should still be useful with little or no mobile connectivity, and when connected, it should rock.
+			</p>
+		</div>
+		<div class="span5 asset">
+				<img class="img-polaroid" src="http://fezzee.com/img/new_fans-480x300.png">
+		</div>
+	</div>
+	
+	<div class="row-fluid section3">
+		<div class="span10 offset1">
+			<h3>Everywhere you are</h3>  <!-- SECTION 3 TITLE -->
+			<p>
+Whether you are on the web, on your smart phone, or on social media sites, Fezzee will be there with you. Fezzee is a suite of apps, that let you plan your festival experieince, supports you at the sites, and lets you share you expereinces well after the gigs are over. Street Smart vs. Fezzee Smart.
+			</p>
+		</div>
+	</div>
+	
+	
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+			 	<h3>Emerging Tech and New Expereinces</h3>                    <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+		
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>Art Installations</h3>          <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+		
+
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>The Team</h3>                    <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>Execution and Roadmap</h3>       <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>How the money will be spent</h3>       <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>Press Kit</h3>                  <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+
+		<div class="row-fluid section4">
+			<div class="span10 offset1">
+				<h3>Risks and Challenges</h3>       <!-- SECTION  TITLE -->
+				<p>
+&nbsp;             
+				</p>
+			</div>
+		</div>
+
+	<!-- FAQ -->
+	<!-- this nrings in jquery and bootstrap dependancies -->
+	<!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
+	<div class="row-fluid faq">
+		<div class="span10 offset1">
+			<h3>FAQ</h3>
+
+			<div class"accordion" id="accordion2">
+				<div class="accordion-group">
+					<div class"accordion-heading">
+						<a class"accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+						What does FAQ stand for?
+						</a>
+					</div>
+				<div id="collapseOne" class="accordion-body collapse">
+					<div class="accordion-inner">
+					Frequently Asked Questions. Questions that are frequently asked.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-group">
+				<div class"accordion-heading">
+					<a class"accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+					Why has music festival attendance been growing steadily each year?
+					</a>
+				</div>
+				<div id="collapseTwo" class="accordion-body collapse">
+					<div class="accordion-inner">
+					From immemorial times the inspiring effect of the invisible sound that moves all hearts, and draws them together, has mystified mankind. So too, music has power to ease tension within the heart. The enthusiasm expresses itself involuntarily in a burst of song, in dance and rhythmic movements of the body. - The I Ching
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+
+
+      <div class="row-fluid footer">
+        <div class="span12">
+          <p>Copyright 2013 Fezzee Corp 347 Fifth Avenue Suite 1402, New York, NY 10016</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
